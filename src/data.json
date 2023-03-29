@@ -1,16 +1,15 @@
 {
     "name": "Domenyk",
-    "avatar": "",
-    "bio": "",
+    "avatar": "https://pbs.twimg.com/profile_images/1640885044670603264/h5XpdqJ-_400x400.jpg",
     "socials": [
         {
             "title": "Instagram",
-            "href": "https://domenyk.xyz",
+            "href": "https://instagram.com/one_gabriel.hd",
             "image": ""
         },
         {
-            "title": "Rust",
-            "href": "https://www.rust-lang.org/pt-BR"
+            "title": "Discord",
+            "href": "https://discord.gg/dKJRyC8MR7"
         }
     ]
 }

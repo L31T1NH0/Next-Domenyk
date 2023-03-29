@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import data from '../data.json'
-import imagem from '../image/Domenyk.png'
+
 
 function LinkCard({ 
   href, 
@@ -25,7 +25,7 @@ function LinkCard({
             <Image 
             className='rounded-sm'
             alt={title}
-            src={imagem}
+            src={image}
             width={40}
             height={40}
           />
@@ -47,7 +47,7 @@ export default function Home() {
       <Image 
         className="rounded-full"
         alt={data.name}
-        src={imagem}
+        src={data.avatar}
         width={96}
         height={96}
       />
