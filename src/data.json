@@ -1,0 +1,16 @@
+{
+    "name": "Domenyk",
+    "avatar": "",
+    "bio": "",
+    "socials": [
+        {
+            "title": "Instagram",
+            "href": "https://domenyk.xyz",
+            "image": ""
+        },
+        {
+            "title": "Rust",
+            "href": "https://www.rust-lang.org/pt-BR"
+        }
+    ]
+}
