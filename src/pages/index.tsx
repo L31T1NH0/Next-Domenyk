@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import data from '../data.json'
 
-
 function LinkCard({ 
   href, 
   title, 
@@ -19,7 +18,6 @@ function LinkCard({
     border-gray-300 mb-3 max-w-2xl"
     >
       <div className="flex text-center w-full">
-
         <div className='w-10 h-10'>
         {image && (
             <Image 
