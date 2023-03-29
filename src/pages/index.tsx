@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import data from '../data.json'
-import foto from '../image/domenyk.png'
+import foto from '../image/insta.png'
 
 function LinkCard({ 
   href, 
@@ -21,7 +21,7 @@ function LinkCard({
       <div className="flex text-center w-full">
         <div className='w-10 h-10'>
         {image && (
-            <Image 
+            <Image
             className='rounded-sm'
             alt={title}
             src={foto}
@@ -60,7 +60,7 @@ export default function Home() {
               <input type="text" id="first" className='w-full h-12 p-1  px-4 rounded-md outline-none rounded-b-none bg-gray-100' maxLength={62} placeholder='Insira seu Nome' />
               <textarea id="last" className='h-48 p-1 max-w-2xl px-4 rounded-md outline-none rounded-t-none resize-none bg-gray-100' maxLength={372} placeholder='Deixe sua Mensagem aqui :)' />
           </form>
-          <button type="submit" className='bg-black text-white p-1 rounded-md absolute'>Submit</button>
+          <button type="submit" className='bg-black text-white p-1 rounded-md absolute flex '>Submit</button>
         </div>
         
       </div>
