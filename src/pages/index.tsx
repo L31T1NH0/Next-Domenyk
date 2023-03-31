@@ -39,7 +39,7 @@ function LinkCard({
 
 export default function Home() {
   return (
-    <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 px-8">
+    <div className="flex items-center flex-col mx-auto w-full justify-center mt-12 px-8">
         <Image
           className="rounded-full"
           alt={data.name}
@@ -48,11 +48,11 @@ export default function Home() {
           height={96}
         /> 
       <h1 
-        className="font-bold mt-2 mb-2 text-xl text-black">
+        className="font-bold mt-2 mb-1 text-xl text-black">
         {data.name}
       </h1>
       <p 
-        className='text-sm max-w-2xl font-semibold text-center mb-2'>
+        className='text-sm max-w-2xl font-semibold text-gray-900 text-center mb-4'>
         {data.bio}
       </p>
       {data.socials.map((social) => (
