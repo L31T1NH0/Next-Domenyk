@@ -26,6 +26,8 @@ function LinkCard({
               src={instaimg}
               width={40}
               height={40}
+              priority
+              placeholder='blur'
             />
           )}
         </div>
@@ -39,13 +41,15 @@ function LinkCard({
 
 export default function Home() {
   return (
-    <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 max-sm:mt-6 px-8">
+    <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 mb-16 max-sm:mt-6 px-8">
         <Image
           className="rounded-full"
           alt={data.name}
           src={photo}
           width={96}
           height={96}
+          priority
+          placeholder='blur'
         /> 
       <h1 
         className="font-bold mt-2 mb-1 text-xl text-black">
@@ -60,7 +64,7 @@ export default function Home() {
       ))}
       <div className="w-full h-full">
         <div className="justify-center items-center m-auto hover:scale-105 transition-all max-w-2xl">
-          <form className="flex flex-col w-full mb-16">
+          <form className="flex flex-col w-full ">
             <input
               type="text"
               id='nome'
